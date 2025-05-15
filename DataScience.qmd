@@ -1,0 +1,64 @@
+---
+title: "Some Thoughts on Data Science"
+format: html
+editor: visual
+---
+
+## What do you think being a data scientist is about?
+
+Personally, I think that being a data scientist is about the way you apply your work. In data science, a lot of the fundamental processes that are used are based on a foundation in statistics. The key distinction for me is the fact that data science is more concerned with the application of statistics to derive insight on data.
+
+## What differences/similarities do you see between data scientists and statisticians?
+
+Some key similarities:
+
+-   Strong foundation in mathematical statistics
+
+-   Using models/visualizations on data to derive insight from a set of observations
+
+-   A variety of different industries utilize these professions in decision-making
+
+A few differences:
+
+-   Data scientists are more likely to work on big datasets, whereas statisticians will do more work on smaller datasets.
+
+-   Statisticians tend to specialize in research and similar fields, whereas data scientists end up in a wide variety of professional roles.
+
+-   A statistician is more likely to be working with more advanced statistical techniques, whereas a data scientist is more likely to work in an interdisciplinary manner by integrating aspects of software engineering and computer science into their work.
+
+## How do you view yourself in relation to these two areas?
+
+In my time at NCSU, I have found myself drawn towards my mathematical statistics classes the most. I definitely feel that being a statistician would resonate the most for me in terms of my interest in statistics, but I would certainly never turn down an opportunity to work as a data scientist if the industry/application of my work was of interest to me!
+
+## A quick look at some petal widths
+
+Using a pre-loaded dataset, let's take a look at some basic R functions:
+
+```{r}
+
+# Create a density function using petal widths from the iris dataset
+y <- density(iris$Petal.Width)
+```
+
+We've now loaded the `y` object, let's take a look at some key characteristics of the object.
+
+```{r}
+
+#Get the class type
+class(y)
+
+#Get the internal type
+typeof(y)
+
+#Get the object structure
+str(y)
+```
+
+Now, let's plot that density curve!
+
+```{r}
+#| echo: FALSE
+
+#Plot the density curve we obtained earlier
+plot(y)
+```

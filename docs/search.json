@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "DataScience.html",
+    "href": "DataScience.html",
+    "title": "Some Thoughts on Data Science",
+    "section": "",
+    "text": "Personally, I think that being a data scientist is about the way you apply your work. In data science, a lot of the fundamental processes that are used are based on a foundation in statistics. The key distinction for me is the fact that data science is more concerned with the application of statistics to derive insight on data."
+  },
+  {
+    "objectID": "DataScience.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "DataScience.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "Some Thoughts on Data Science",
+    "section": "",
+    "text": "Personally, I think that being a data scientist is about the way you apply your work. In data science, a lot of the fundamental processes that are used are based on a foundation in statistics. The key distinction for me is the fact that data science is more concerned with the application of statistics to derive insight on data."
+  },
+  {
+    "objectID": "DataScience.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "DataScience.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "Some Thoughts on Data Science",
+    "section": "What differences/similarities do you see between data scientists and statisticians?",
+    "text": "What differences/similarities do you see between data scientists and statisticians?\nSome key similarities:\n\nStrong foundation in mathematical statistics\nUsing models/visualizations on data to derive insight from a set of observations\nA variety of different industries utilize these professions in decision-making\n\nA few differences:\n\nData scientists are more likely to work on big datasets, whereas statisticians will do more work on smaller datasets.\nStatisticians tend to specialize in research and similar fields, whereas data scientists end up in a wide variety of professional roles.\nA statistician is more likely to be working with more advanced statistical techniques, whereas a data scientist is more likely to work in an interdisciplinary manner by integrating aspects of software engineering and computer science into their work."
+  },
+  {
+    "objectID": "DataScience.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "DataScience.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "Some Thoughts on Data Science",
+    "section": "How do you view yourself in relation to these two areas?",
+    "text": "How do you view yourself in relation to these two areas?\nIn my time at NCSU, I have found myself drawn towards my mathematical statistics classes the most. I definitely feel that being a statistician would resonate the most for me in terms of my interest in statistics, but I would certainly never turn down an opportunity to work as a data scientist if the industry/application of my work was of interest to me!"
+  },
+  {
+    "objectID": "DataScience.html#a-quick-look-at-some-petal-widths",
+    "href": "DataScience.html#a-quick-look-at-some-petal-widths",
+    "title": "Some Thoughts on Data Science",
+    "section": "A quick look at some petal widths",
+    "text": "A quick look at some petal widths\nUsing a pre-loaded dataset, let’s take a look at some basic R functions:\n\n# Create a density function using petal widths from the iris dataset\ny &lt;- density(iris$Petal.Width)\n\nWe’ve now loaded the y object, let’s take a look at some key characteristics of the object.\n\n#Get the class type\nclass(y)\n\n[1] \"density\"\n\n#Get the internal type\ntypeof(y)\n\n[1] \"list\"\n\n#Get the object structure\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nNow, let’s plot that density curve!"
+  }
+]
